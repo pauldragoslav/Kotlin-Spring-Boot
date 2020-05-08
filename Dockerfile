@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:jre-11.0.5_10-alpine
+FROM adoptopenjdk/openjdk14:jdk-14.0.1_7
 VOLUME /tmp
 ARG JAR_FILE
 COPY target/kotlin-demo-*.jar app.jar
